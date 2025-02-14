@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,6 +10,8 @@ body {
     text-align: center;
     animation: backgroundChange 10s infinite alternate; 
 }
+
+
 
 @keyframes backgroundChange {
     0% { background-color: #ffebf3; } 
